@@ -1,0 +1,14 @@
+x=int(input())
+#def array(x):
+    #pass
+z=0
+
+
+#array(x)
+while x>0:
+    y=x%10
+    x =x//10
+    z=z*10+y
+
+
+print(z)
