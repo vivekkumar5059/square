@@ -1,0 +1,21 @@
+x=[2,4,5,6,1]
+
+
+size=len(x)
+for i in range(size-1):
+    for num in range(size-1):
+        print(x[num])
+        if x[num]>x[num +1]:
+          
+            temp=x[num]
+        
+            x[num]=x[num+1]
+        
+            x[num+1]=temp
+    
+print(x)
+
+
+
+
+
